@@ -1,0 +1,33 @@
+body{
+    color:#5523ab;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive;
+    font-size:  100%;
+    padding: 0.9rem;
+    }
+.top-container{
+    background-color: #5523ab;
+    text-align: center;
+    position:relative;
+}
+p{
+    color: whitesmoke;
+   }
+.middle-container{
+    background-color: aliceblue;
+    width:0px;
+    height:600px;
+    position: relative;
+    margin: left 26px; 
+    }
+   
+.btn{
+    color:#5523ab;
+    margin:0px auto;
+    padding-bottom: 50px;
+}
+.bottom-container{
+text-align: center;
+background-color: #5523ab;
+}

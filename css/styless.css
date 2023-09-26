@@ -1,0 +1,111 @@
+body{
+background-color:bisque;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+font-size:  200%;
+}
+.hr{
+    border-style:"thick";
+    border-top-style:dotted;
+    border-color: darkslategrey;
+    border-width: 100%;
+    width:20px;}
+.h1{
+margin:0px auto 0px auto;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+font-size: 500%;
+font-weight:300%;}
+.h2{
+    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive; 
+    font-size: 500%;
+    font-weight :300%;
+}
+.top-container{
+    background-color:#E4F9F5;
+    position:relative;
+    padding-top :100px;
+}
+
+.pro{
+    text-decoration:underline;
+    line-height: 5px;
+}
+.top-cloud{
+    position:absolute;
+    margin-right :110px;
+    margin-top:-80px; }
+
+.bottom-cloud{
+    position:absolute;
+   margin-left:110px;
+   margin-bottom:80px;
+    }
+.mountains{
+    position:static;
+    margin:0 auto;
+    width: 300px;
+    height:200px;
+}
+.middle-container{
+    background-color:#E4F9F5;
+    position:relative;
+}
+.img{
+    background-color: beige;
+    width:30px;
+    height:10px;
+}
+
+.circular{
+    border-radius: 100%;
+    border-width: 20px;
+  }
+.skills{
+    margin: 100px auto 100px auto;
+    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive; 
+    font-size: 50%;
+    font-weight :30%;
+    text-align: left;
+}
+.contact-me{
+    background-color:gainsboro;
+    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive; 
+    font-size: 300%;
+    font-weight :100%;
+    text-align: left;
+}
+.btn {
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    text-transform:uppercase;
+    width: 250px;
+    color:darkgreen;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    transition: all 300ms ease; 
+}
+.stock{
+float:right;
+margin-right: 20px auto;
+text-align: right;
+line-height: 5px;
+} 
+.pizza{
+float:left;
+margin-left: 20px auto;
+text-align: left;
+line-height: 5px;
+}
